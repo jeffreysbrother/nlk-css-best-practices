@@ -1,10 +1,5 @@
 /* Table of Contents
-    1.0 - General
-      1.1 - resets
-      1.2 - elements
-      1.3 - fonts
-      1.4 - colors
-      1.5 - components (buttons, etc.)
+    1.0 - General (resets, elements, fonts, colors, components)
     2.0 - Pages
       2.1 - about
       2.2 - contact
@@ -16,15 +11,27 @@
 
 
 /* ==========================================================================
-   1.0 General
+   1.1 - General
    ========================================================================== */
 
-   /**
-    * This is an example of a large multi-line comment.
-    *
-    * Each line here should not exceed the length of the section heading.
-    * This will increase readability and prevent line-wrapping.
-    *
-    * Please only add comments when they increase readability
-    * and maintainability.
-    */
+
+ /*the next two rules remove the up/down arrows on form fields*/
+ input[type='number'] {
+     -moz-appearance:textfield;
+ }
+
+ input::-webkit-outer-spin-button,
+ input::-webkit-inner-spin-button {
+     -webkit-appearance: none;
+ }
+
+ /*eliminate default Safari styling*/
+ input, textarea, select {
+    -webkit-appearance: none;
+ }
+
+
+
+ /* ==========================================================================
+    2.1 - about page
+    ========================================================================== */
