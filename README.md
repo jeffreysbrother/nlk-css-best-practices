@@ -9,6 +9,7 @@ Since we have not yet settled on best practices regarding pre-processors or desi
 ###stuff to include, maybe
 
 * relevant class and id names
+* avoid redundant code, unnecessary overrides, and an excessive number of font sizes
 * liberal, but not excessive, comments (aim for increased clarity...not clutter)
 * reference to JIRA ticket numbers where helpful
 * updated Table of Contents
