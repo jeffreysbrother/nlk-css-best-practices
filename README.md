@@ -8,12 +8,13 @@ Since we have not yet settled on best practices regarding pre-processors (Sass),
 
 ###Guidelines
 
-* Ensure that the table of contents is updated
+* Ensure that the table of contents is regularly updated, and its structure adhered to
 * Only use relevant class and id names
+* Be consistent with formatting
 * Avoid redundant code, unnecessary overrides, and an excessive number of font sizes
 * Include liberal, but not excessive, comments (aim for increased clarity...not clutter)
 * Reference JIRA ticket numbers where helpful
 
-* text editor settings (tabs/spaces, LF/CRLF, plugin for collapsing commented sections?)
-* enforce use of rems in new projects?
-* include useful defaults (font size of elements, resets not included in Normalize.css)
+* determine optimal text editor settings (tabs/spaces, LF/CRLF, plugin for collapsing commented sections?)
+* enforce the use of rems in new projects?
+* include useful defaults (font sizes, resets not included in Normalize.css like the equal height columns hack, Safari form normalization)
