@@ -8,7 +8,7 @@ Since we have not yet settled on best practices regarding pre-processors (Sass),
 
 ###Guidelines
 
-* Ensure that the table of contents is regularly updated, and its structure adhered to
+* Ensure that all styles accurately reflect the structure of the Table of Contents
 * Only use relevant class and id names
 * Be consistent with formatting
 * Avoid redundant code, unnecessary overrides, and an excessive number of font sizes
