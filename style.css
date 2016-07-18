@@ -10,13 +10,13 @@
 
 
 /* ==========================================================================
-   1.1 - General
+   1.0 - General
    ========================================================================== */
 
 
  /*the next two rules remove the up/down arrows on form fields*/
  input[type='number'] {
-     -moz-appearance:textfield;
+     -moz-appearance: textfield;
  }
 
  input::-webkit-outer-spin-button,
