@@ -6,10 +6,10 @@ Since we have not yet settled on best practices regarding pre-processors (Sass),
 * [Structuring CSS in large projects](https://medium.com/peergrade-io/structuring-css-in-large-projects-37f1695f5ec8#.7f42jl9ke)
 * [Principles of writing consistent, idiomatic CSS](https://github.com/necolas/idiomatic-css)
 
-###Guidelines
+###Additional Guidelines
 
 * Ensure that all styles accurately reflect the structure of the Table of Contents
-* Only use relevant class and id names
+* Only use relevant .class and #id names
 * Be consistent with formatting
 * Avoid redundant code, unnecessary overrides, and an excessive number of font sizes
 * Include liberal, but not excessive, comments (aim for increased clarity...not clutter)
