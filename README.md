@@ -14,6 +14,7 @@ Since we have not yet settled on best practices regarding pre-processors (Sass),
 * Avoid redundant code, unnecessary overrides, and an excessive number of font sizes
 * Avoid unnecessary !important rules
 * Avoid using inline styles, and avoid adding styles via WordPress plugins; in the context of a WordPress site, it is ideal for all CSS to be centrally-located and tracked by Git
+* Never edit CSS libraries directly (e.g. Bootstrap, Foundation)
 * Include liberal, but not excessive, comments (aim for increased clarity...not clutter)
 * Reference JIRA ticket numbers where helpful
 
