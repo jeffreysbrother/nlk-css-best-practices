@@ -12,16 +12,19 @@ The following articles contain useful information regarding common best practice
 * Only use relevant .class and #id names
 * Be consistent with formatting
 * Avoid redundant code, unnecessary overrides, and an excessive number of font sizes
-* Avoid !important rules
+* Avoid overly-specific rules (e.g. prefer classes over IDs and avoid `!important`)
 * Avoid using inline styles
 * Never edit CSS libraries directly (e.g. Bootstrap, Foundation)
-* Include liberal, but not excessive, comments (aim for increased clarity...not clutter)
+* Add comments only when clarity is gained
+* prefer %, em, rem, vh, vw units over px
 * Reference JIRA ticket numbers where helpful
 * Determine optimal text editor settings (tabs/spaces, LF/CRLF, plugin for collapsing commented sections?)
+* Aim to write code in a way that anticipates future updates
 
 ###Sass
 * use variables when possible
 * avoid excessive nesting
+* adhere to the structure imposed by partials (if they exist)
 
 ###WordPress
 * Avoid adding styles via the WordPress admin area; it is ideal for all CSS to be centrally-located and tracked by Git
