@@ -17,7 +17,6 @@ Since we have not yet settled on best practices regarding pre-processors (Sass),
 * Never edit CSS libraries directly (e.g. Bootstrap, Foundation)
 * Include liberal, but not excessive, comments (aim for increased clarity...not clutter)
 * Reference JIRA ticket numbers where helpful
-
 * determine optimal text editor settings (tabs/spaces, LF/CRLF, plugin for collapsing commented sections?)
 * enforce the use of rems in new projects?
 * include useful defaults (font sizes, resets not included in Normalize.css like the equal height columns hack, Safari form normalization)
