@@ -6,7 +6,7 @@ The following articles contain useful information regarding common best practice
 * [Structuring CSS in large projects](https://medium.com/peergrade-io/structuring-css-in-large-projects-37f1695f5ec8#.7f42jl9ke)
 * [Principles of writing consistent, idiomatic CSS](https://github.com/necolas/idiomatic-css)
 
-###General Guidelines (CSS and Sass)
+###Styles in general (CSS and Sass)
 
 * Ensure that all styles accurately reflect the structure of the Table of Contents
 * Only use relevant .class and #id names
@@ -26,7 +26,7 @@ The following articles contain useful information regarding common best practice
 * avoid excessive nesting
 * adhere to the structure imposed by partials (if they exist)
 
-###WordPress
+###WordPress Styles
 * Avoid adding styles via the WordPress admin area; it is ideal for all CSS to be centrally-located and tracked by Git
 
 ###Not Yet Agreed Upon
