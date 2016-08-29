@@ -36,6 +36,7 @@ The above conventions should suffice for existing projects. If we eventually dec
 * No nested selectors
 * No element selectors
 * Adhere to naming convention: `block__element--modifier`
+* It might also be useful to include meta information at the top of the stylesheet; a note that BEM is being used, and a brief summary of our chosen naming convention, for example.
 
 ###Not Yet Agreed Upon
 * enforce the use of rems in new projects?
