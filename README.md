@@ -8,17 +8,16 @@ The following articles contain useful information regarding common best practice
 
 ###Styles in general (CSS and Sass)
 
-* Ensure that all styles accurately reflect the structure of the Table of Contents
+* Ensure that all styles accurately reflect the structure of the Table of Contents (if one exists)
 * Do not use IDs for adding styles
 * Class names should be meaningful
-* Be consistent with formatting
+* Use consistent formatting
 * Avoid redundant code, unnecessary overrides, and an excessive number of font sizes
 * Avoid overly-specific rules (e.g. prefer classes over IDs and avoid `!important`)
 * Avoid using inline styles
 * Never edit CSS libraries directly (e.g. Bootstrap, Foundation)
-* Add comments only when clarity is gained
+* Add comments only when clarity is gained; reference JIRA ticket numbers where helpful
 * prefer %, em, rem, vh, vw units over px
-* Reference JIRA ticket numbers where helpful
 * Determine optimal text editor settings (tabs/spaces, LF/CRLF, plugin for collapsing commented sections?)
 * Aim to write code in a way that anticipates future updates
 
