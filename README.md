@@ -9,7 +9,8 @@ The following articles contain useful information regarding common best practice
 ###Styles in general (CSS and Sass)
 
 * Ensure that all styles accurately reflect the structure of the Table of Contents
-* Only use relevant .class and #id names
+* Do not use IDs for adding styles
+* Class names should be meaningful
 * Be consistent with formatting
 * Avoid redundant code, unnecessary overrides, and an excessive number of font sizes
 * Avoid overly-specific rules (e.g. prefer classes over IDs and avoid `!important`)
@@ -29,8 +30,17 @@ The following articles contain useful information regarding common best practice
 ###WordPress Styles
 * Avoid adding styles via the WordPress admin area; it is ideal for all CSS to be centrally-located and tracked by Git
 
+###BEM (or alternative methodology)
+
+The above conventions should suffice for existing projects. If we eventually decide to make use of BEM (or some alternative methodology), we must enforce the following *additional* conventions:
+
+* No nested selectors
+* No element selectors
+* Adhere to naming convention: `block__element--modifier`
+
 ###Not Yet Agreed Upon
 * enforce the use of rems in new projects?
 * include useful defaults (font sizes, resets not included in Normalize.css like the equal height columns hack, Safari form normalization)
 * browsers to support?
 * WP/Drupal/static HTML?
+* Is a table of contents truly necessary if our stylesheets are semantic? It's even less important if we utilize .scss partials. Perhaps a TOC would only be necessary on extra-large projects that do not make use of Sass.
