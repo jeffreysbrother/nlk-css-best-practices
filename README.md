@@ -34,7 +34,7 @@ The following articles contain useful information regarding common best practice
 ###WordPress Styles
 * Avoid adding styles via the WordPress admin area; it is ideal for all CSS to be centrally-located and tracked by Git
 
-###BEM (for internal use only)
+###BEM (experimental: for internal use only)
 
 The above conventions should suffice for existing projects. However, if BEM or some alternative methodology is used, we must enforce the following *additional* conventions:
 
@@ -47,6 +47,5 @@ The above conventions should suffice for existing projects. However, if BEM or s
 ###Not Yet Agreed Upon
 * enforce the use of rems in new projects?
 * include useful defaults (font sizes, resets not included in Normalize.css like the equal height columns hack, Safari form normalization)
-* browsers to support?
 * WP/Drupal/static HTML?
 * Is a table of contents truly necessary if our stylesheets are semantic? It's even less important if we utilize .scss partials. Perhaps a TOC would only be necessary on extra-large projects that do not make use of Sass.
