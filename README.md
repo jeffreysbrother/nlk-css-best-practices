@@ -19,6 +19,7 @@ The following articles contain useful information regarding common best practice
 * Avoid overly-specific rules (e.g. prefer classes over IDs and avoid `!important`)
 * Avoid using inline styles
 * When possible, favor a CSS rule over HTML tags such as `<strong>` or `<em>` when there is no semantic benefit for the tags (for example, if an entire block of content is bold)
+* Always use CSS to add uppercase styling; screen readers will often read individual letters instead of words if the source code includes content in UPPERCASE. 
 * Never edit CSS libraries directly (e.g. Bootstrap, Foundation)
 * Add comments only when clarity is gained; reference JIRA ticket numbers where helpful
 * prefer %, em, rem, vh, vw units over px
